@@ -1,3 +1,5 @@
+/* Resets */
+
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
@@ -9,4 +11,77 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 1.125rem;
+}
+
+/* Card */
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+  margin-block-end: 64px;
+}
+
+.intro-chunk {
+  padding-block-start: 96px;
+  max-width: 400px;
+}
+
+.intro-chunk .title {
+  font-size: 2rem;
+  margin-block-end: 32px;
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.intro-chunk p strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+/* Card */
+
+main {
+  width: 100%;
+  padding: 96px 0;
+  border-block-start: 8px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+  padding-block-end: 48px;
+}
+
+.card {
+  margin-inline-start: -24px;
+  padding: 24px;
+  padding-block-end: 16px;
+  background-color: #fff;
+  margin-inline-end: -24px;
+  border-block-end: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.indented-heading {
+  margin-block-start: -16px;
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 16px 32px;
+  margin-inline-start: -32px;
+  border-block-end: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+.card p:last-child {
+  margin-block-end: 0;
+}
